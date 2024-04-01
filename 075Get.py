@@ -112,7 +112,7 @@ class DoublyLinkedList:
             # backward from the tail to index
             temp = self.tail
             for _ in range((self.length-1), index-1, -1):
-                temp = temp.prev
+                tæemp = temp.prev
         return temp
 
 
